@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[])
 {
-  char* buf="TEARDOWN rtsp://192.168.8.159/smt.avi\r\nCSeq: 1\r\nSession: 112233\r\n\r\nthisisbodytext\r\n";
+  char* buf="GET_PARAMETER rtsp://192.168.8.159/smt.avi\r\nCSeq: 1\r\nSession: 112233\r\n\r\nthisisbodytext\r\n";
 	char* v;
   struct rtsp_firstline* fl;
 	printf("main 1\n");
